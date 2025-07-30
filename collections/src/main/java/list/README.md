@@ -50,3 +50,56 @@ Crie uma classe chamada `OrdenacaoNumeros` que possua uma lista de números inte
 - `adicionarNumero(int numero)`: Adiciona um número à lista.
 - `ordenarAscendente()`: Ordena os números da lista em ordem ascendente usando a interface Comparable e as Collections.
 - `ordenarDescendente()`: Ordena os números da lista em ordem descendente usando um Comparable e as Collections.
+Claro! Abaixo está a informação organizada de forma clara e apropriada para um ficheiro **Markdown**, com títulos e descrições bem estruturadas:
+
+
+## Classe `AgendaContatos`
+
+A classe `AgendaContatos` simula uma aplicação básica de agenda de contatos. Ela permite adicionar, remover, exibir e pesquisar contatos por nome. Cada contato é armazenado com o **nome como chave** e o **telefone como valor**.
+
+---
+
+## Métodos
+
+### 1. `adicionarContato(String nome, Integer telefone)`
+
+Adiciona um novo contato à agenda, associando o nome ao número de telefone.
+
+**Parâmetros:**
+
+- `nome` (String): O nome do contato.
+- `telefone` (Integer): O número de telefone do contato.
+
+---
+
+### 2. `removerContato(String nome)`
+
+Remove um contato da agenda com base no nome.
+
+**Parâmetros:**
+
+- `nome` (String): O nome do contato que deve ser removido.
+
+---
+
+### 3. `exibirContatos()`
+
+Exibe todos os contatos da agenda. Para cada contato, é mostrado o nome e o número de telefone correspondente.
+
+**Saída:**
+
+- Lista de todos os contatos no formato `Nome: Telefone`.
+
+---
+
+- `pesquisarPorNome(String nome)`
+Pesquisa um contato na agenda pelo nome e retorna o número de telefone correspondente.
+
+**Parâmetros:**
+
+- `nome` (String): O nome do contato a ser pesquisado.
+
+**Retorno:**
+
+- O número de telefone (Integer) associado ao nome informado, se encontrado.
+
